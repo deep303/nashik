@@ -1,0 +1,79 @@
+Below is a simple HTML structure for a front page of a Nashik city details blog along with CSS for styling:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nashik City Details Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .post {
+            margin-bottom: 20px;
+        }
+        .post h2 {
+            color: #333;
+        }
+        .post p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nashik City Details Blog</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="post">
+            <h2>Introduction to Nashik</h2>
+            <p>Nashik is a city in the state of Maharashtra, India. It is known for its rich cultural heritage and historical significance.</p>
+        </div>
+        <div class="post">
+            <h2>Places to Visit</h2>
+            <p>Some popular tourist attractions in Nashik include the Trimbakeshwar Temple, Sula Vineyards, and Pandavleni Caves.</p>
+        </div>
+        <div class="post">
+            <h2>Local Cuisine</h2>
+            <p>Nashik is famous for its street food such as Misal Pav, Vada Pav, and Pav Bhaji.</p>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+This HTML code provides a basic structure for a front page of a blog about Nashik city details. The header contains the title of the blog, followed by a navigation bar for navigating through the pages. The content is organized within a 
